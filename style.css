@@ -1,0 +1,43 @@
+/* Reset margin and padding, set font, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Style the navbar */
+.navbar {
+    display: flex;
+    align-items: center; /* Center content vertically */
+    padding: 0 20px; /* Add horizontal padding */
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+
+/* Style for the logo container */
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+}
+
+/* Logo background */
+.logo {
+    background-image: url('amazon_logo.png'); /* Image path */
+    background-size: contain; /* Ensures the image fits inside the container */
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
